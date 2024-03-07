@@ -4,6 +4,5 @@ app = FastAPI(title="FastAPI, Docker")
 
 
 @app.get("/")
-def read_root():
-    
+def read_root():  
     return {"hello": "world"}
